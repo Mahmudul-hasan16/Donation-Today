@@ -56,11 +56,13 @@ h2 {
     margin: 20px;
     background-color: whitesmoke;
     border-radius: 2%;
+    border-radius: 10px;
 }
 
 #twohundrad {
     background-color: rgb(189, 162, 162);
     border: 2px solid rgb(11, 11, 10);
+    border-radius: 10px;
 
 }
 
