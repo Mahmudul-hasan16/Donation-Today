@@ -11,6 +11,10 @@ h1 {
     font-size: 70px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .btn-donate {
     text-decoration: none;
     background-color: rgb(5, 5, 5);
@@ -36,7 +40,7 @@ h1 {
 }
 
 .donate-today {
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: center;
     padding: 5%;
 }
@@ -74,13 +78,14 @@ Input {
 
 .planwhole {
     display: flex;
+    width: 80%;
+    margin-left: 150px;
 }
 
 .plan {
     padding: 2%;
-    margin-left: 100px;
-    margin-right: 100px;
     background-color: antiquewhite;
+    margin: 10px;
 }
 
 #food {
@@ -89,4 +94,62 @@ Input {
 
 #education {
     background-color: darksalmon;
+}
+
+.guideline {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 300px;
+    padding: 2%;
+}
+
+.guideline-p {
+    margin-left: 100px;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.email {
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: gray;
+}
+
+.subscribe div {
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 40px 300px;
+}
+
+.subscribe a {
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 8px 20px;
+}
+
+
+footer {
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h2 {
+    color: tomato;
+    font-family: 'Lobster', cursive;
+}
+
+footer p {
+    margin-top: 20px;
 }
