@@ -26,7 +26,7 @@ h2 {
 .container {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(#0d0d0f74, #f3f1f582), url(./images/donation9.jpg) no-repeat top center;
+    background: linear-gradient(#dddde9a4, #0c0415c3), url(./images/donation9.jpg) no-repeat top center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
